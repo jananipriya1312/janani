@@ -10,9 +10,11 @@ public class leapyear {
 	        Scanner as=new Scanner(System.in);
 	        System.out.println("Enter the year");
 	        arg=as.nextInt();
-	       	        if(arg%4==0||arg%400==0){
+	       	        if(arg%4==0)
+			{
 	        	 System.out.println("Leap year");
-	        }else{
+	        }
+		else{
 	        	 System.out.println("Not a leap year");
 	        }
 	        	
