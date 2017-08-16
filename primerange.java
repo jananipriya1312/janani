@@ -12,11 +12,11 @@ public class Prime
          System.out.println ("The prime numbers in between the entered limits are :");
          for(i = s1; i <= s2; i++)
          {
-             for( j = 2; j < i; j++)
+             for(j=2;j<i;j++)
              {
-                 if(i % j == 0)
+                 if(i%j==0)
                  {
-                     flag = 0;
+                     flag=0;
                      break;
                  }
                  else
